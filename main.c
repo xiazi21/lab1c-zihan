@@ -6,6 +6,6 @@ int main(void)
   printf("Enter temperature in celsius:"); 
   scanf("%f",&i);
   j=(i*1.8)+32;
-  printf("%.6f° in Celsius is equivalent to %.6f°",i,j);
+  printf("%.6f° in Celsius is equivalent to %.6f°\n",i,j);
   return 0;
 }
