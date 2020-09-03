@@ -2,10 +2,10 @@
 
 int main(void) 
 {
-  int i,j ;
-  printf("Enter temperature in celsius:");
-  scanf("%d",&i);
+  float i,j ;
+  printf("Enter temperature in celsius:"); 
+  scanf("%f",&i);
   j=(i*1.8)+32;
-  printf("%d° in Celsius is equivalent to %d°",i,j);
+  printf("%.6f° in Celsius is equivalent to %.6f°",i,j);
   return 0;
 }
